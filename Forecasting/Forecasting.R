@@ -1,7 +1,7 @@
 #install.packages("TTR")
 library("TTR")
 library("forecast")
-data <- read.csv("/Users/Darshak/Downloads/IoT\ P3/backupdate.csv")
+data <- read.csv("./BDH.csv")
 train<- data[1:1500,]
 test<- data[1501:2000,]
 pdf("iot p3.pdf")
