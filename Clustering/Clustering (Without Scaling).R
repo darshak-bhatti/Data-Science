@@ -3,7 +3,7 @@ library(dbscan)
 library(plotly)
 library(mclust)
 
-data <- read.csv("/Users/Darshak/Downloads/BHATTI\ DARSHAK\ HARISINH.csv", header = FALSE)
+data <- read.csv("./BDH.csv", header = FALSE)
 
 #-----------K Means------Deciding k-------
 sse<-c(1:10)

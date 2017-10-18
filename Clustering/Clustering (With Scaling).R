@@ -4,7 +4,7 @@ library(ggplot2)
 library(plotly)
 library(mclust)
 
-data2 <- read.csv("/Users/Darshak/Downloads/BHATTI\ DARSHAK\ HARISINH.csv", header = FALSE)
+data2 <- read.csv("./BDH.csv", header = FALSE)
 data<-data.frame(V1 = data2$V1/max(data2$V1), V2 = data2$V2/max(data2$V2), V3 = data2$V3/max(data2$V3))
 
 #-----------K Means---------Deciding k----

@@ -5,7 +5,7 @@ library(ggplot2)
 library(randtests)
 library(nortest)
 
-data = read.csv("/Users/darshak/Desktop/BDH.csv")
+data = read.csv("./BDH.csv")
 
 X1<-data$X1
 X2<-data$X2
